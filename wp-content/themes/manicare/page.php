@@ -14,7 +14,7 @@ get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 	<? $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
-	<div id="masthead" style="background: url(<?= $url; ?>) no-repeat;">
+	<div id="masthead" style="background-image: url('<?= $url; ?>');">
 	</div>
 	<div id="page-header">
 		<h1 class="page-title"><? the_title(); ?> </h1>

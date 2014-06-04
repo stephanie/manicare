@@ -374,11 +374,13 @@ a:focus {
 #masthead {
 	margin-top: 0;
 	padding-bottom: 0;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 	position: relative;
 	background-attachment: fixed;
 	z-index: -99999;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #page-header {
